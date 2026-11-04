@@ -1,7 +1,45 @@
+/* Design System Próprio com Variáveis CSS (:root) */
+:root {
+    --bg-color: #f8fafc;
+    --text-color: #334155;
+    --primary-color: #0f172a;
+    --secondary-color: #3b82f6;
+    --card-bg: #ffffff;
+    --fonte-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Modo Escuro (Dark Mode) aplicado via classe no body */
+body.dark-mode {
+    --bg-color: #0f172a;
+    --text-color: #f8fafc;
+    --card-bg: #1e293b;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 header {
-    background-color: azure;
-    width: 50%;
-    height: 90px;
-    margin: 0 auto;
+    background-color: var(--primary-color);
+    color: #ffffff;
     margin-bottom: 20px;
+}
+
+/* Ajuste dinâmico para os cards no modo escuro */
+body.dark-mode .card, 
+body.dark-mode .bg-white,
+body.dark-mode .bg-light {
+    background-color: var(--card-bg) !important;
+    color: var(--text-color) !important;
+    border-color: #334155 !important;
+}
+
+/* Microinteração nos links do menu */
+.nav-link:hover {
+    color: var(--secondary-color) !important;
+    transform: translateY(-1px);
+    transition: transform 0.2s ease;
 }
