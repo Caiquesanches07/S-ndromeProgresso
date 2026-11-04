@@ -3,21 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Síndrome do Progresso Forçado</title>
+    <title>Início - Síndrome do Progresso Forçado</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Seu CSS Autoral -->
     <link rel="stylesheet" href="css/trabalho.css">
 </head>
 <body>
-    <header>
-        <h1>Síndrome do Progresso Forçado</h1>
-        <nav> 
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="pages/introducao.html">Introdução</a></li>
-                <li><a href="pages/causas.html">Causas</a></li>
-                <li><a href="pages/sintomas.html">Sintomas</a></li>
-                <li><a href="pages/diagnostico.html">Diagnóstico</a></li>
-            </ul>
-        </nav>
+
+    <!-- Cabeçalho Principal -->
+    <header class="py-4 shadow-sm text-center bg-dark text-white">
+        <div class="container">
+            <h1 class="h3 mb-1">Síndrome do Progresso Forçado</h1>
+            <p class="text-white-50 mb-0">O impacto da vigilância algorítmica e da cobrança por produtividade</p>
+        </div>
     </header>
+
+    <!-- Barra de Navegação Atualizada (Sem Diagnóstico) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary mb-4 shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Início</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="introducao.html">Introdução</a></li>
+                    <li class="nav-item"><a class="nav-link" href="causas.html">Causas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sintomas.html">Sintomas</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal / Apresentação do Site -->
+    <main class="container my-5">
+        <section class="row justify-content-center text-center">
+            <div class="col-lg-9">
+                <h2 class="mb-3">Bem-vindo ao Nosso Estudo</h2>
+                <p class="lead text-muted mb-4">
+                    Este site tem como objetivo analisar e expor os reflexos psicológicos e sociais gerados pela exigência de relatórios diários de 24 horas e pelo controle algorítmico no modelo de trabalho remoto.
+                </p>
+                <hr class="my-4">
+                
+                <h4 class="mb-3 text-start">O que você vai encontrar por aqui:</h4>
+                
+                <!-- Cards de Atalhos para as Seções (Ajustados em 3 colunas) -->
+                <div class="row g-3 text-start mt-2">
+                    <div class="col-md-4">
+                        <div class="p-3 border rounded bg-white shadow-sm h-100">
+                            <h5><a href="introducao.html" class="text-decoration-none">Introdução</a></h5>
+                            <p class="text-muted small mb-0">Contextualização sobre a transição do trabalho remoto para o monitoramento de performance contínua.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-3 border rounded bg-white shadow-sm h-100">
+                            <h5><a href="causas.html" class="text-decoration-none">Causas</a></h5>
+                            <p class="text-muted small mb-0">Como a perda de visibilidade física do funcionário gerou a cultura do vídeo-relatório obrigatório.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-3 border rounded bg-white shadow-sm h-100">
+                            <h5><a href="sintomas.html" class="text-decoration-none">Sintomas</a></h5>
+                            <p class="text-muted small mb-0">Ansiedade de performance, burnout e a sensação constante de inadequação profissional.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="text-center py-4 bg-light mt-auto border-top">
+        <div class="container">
+            <p class="text-muted small mb-0">Projeto Prático - Front-end com IA &copy; 2026</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -6,33 +6,32 @@
     <title>Sintomas - Síndrome do Progresso Forçado</title>
     <!-- Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- CSS Autoral -->
-    <link rel="stylesheet" href="../css/trabalho.css">
+    <!-- Seu CSS Autoral -->
+    <link rel="stylesheet" href="css/trabalho.css">
 </head>
 <body>
 
     <!-- Cabeçalho Principal -->
-    <header class="py-4 shadow-sm text-center">
+    <header class="py-4 shadow-sm text-center bg-dark text-white">
         <div class="container">
-            <h1 class="h3">Síndrome do Progresso Forçado</h1>
-            <p class="text-muted mb-0">Impactos Socioemocionais e Psicológicos</p>
+            <h1 class="h3 mb-1">Síndrome do Progresso Forçado</h1>
+            <p class="text-white-50 mb-0">Reflexos Psicológicos e Ocupacionais</p>
         </div>
     </header>
 
     <!-- Barra de Navegação -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary mb-4 shadow-sm">
         <div class="container">
-            <a class="navbar-brand" href="../index.html">Início</a>
+            <a class="navbar-brand fw-bold" href="index.html">Início</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="../index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="introducao.html">Introdução</a></li>
                     <li class="nav-item"><a class="nav-link" href="causas.html">Causas</a></li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="sintomas.html">Sintomas</a></li>
-                    <li class="nav-item"><a class="nav-link" href="diagnostico.html">Diagnóstico</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="sintomas.html">Sintomas</a></li>
                 </ul>
             </div>
         </div>
@@ -41,46 +40,56 @@
     <!-- Conteúdo Principal -->
     <main class="container my-5">
         <section class="row justify-content-center">
-            <div class="col-lg-8">
-                <h2>Sintomas da Pressão Digital</h2>
-                <p class="lead mt-3">
-                    A obrigação de performar diante de câmeras e relatórios diários gera reações comportamentais severas nos profissionais, 
-                    especialmente nas gerações mais jovens.
+            <div class="col-lg-9">
+                <h2 class="mb-3">Sintomas e Impactos na Saúde Mental</h2>
+                <p class="lead text-muted mb-4">
+                    A exigência contínua de provar produtividade e o medo latente de sanções geram reações comportamentais e emocionais profundas, comprometendo seriamente o bem-estar do trabalhador.
                 </p>
-                <hr class="my-4">
+
+                <!-- Imagem ilustrativa: Esgotamento/Burnout -->
+                <div class="text-center my-4">
+                    <img src="image/image_5f62c4.png" alt="Profissional exausto debruçado sobre o notebook representando esgotamento mental" class="img-fluid rounded shadow-sm" style="max-height: 280px;">
+                    <p class="text-muted small mt-2">O esgotamento digital crônico decorrente da incapacidade de se desconectar.</p>
+                </div>
                 
-                <!-- Uso de Cards do Bootstrap para organizar os sintomas -->
-                <div class="row g-4">
-                    <div class="col-md-6">
-                        <div class="card h-100 shadow-sm">
-                            <div class="card-body">
-                                <h5 class="card-title text-primary">Ansiedade de Performance</h5>
-                                <p class="card-text">O medo constante de não ter "produzido o suficiente" nas últimas 24 horas, gerando noites mal dormidas e preocupação contínua.</p>
-                            </div>
+                <div class="row g-4 mt-2">
+                    <div class="col-md-4">
+                        <div class="p-3 border rounded bg-white shadow-sm h-100">
+                            <h5 class="text-primary h6">Ansiedade de Performance</h5>
+                            <p class="text-muted small mb-0">Preocupação persistente e antecipatória sobre a qualidade do próximo relatório, gerando insônia e hipervigilância fora do expediente.</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="card h-100 shadow-sm">
-                            <div class="card-body">
-                                <h5 class="card-title text-primary">Síndrome do Impostor</h5>
-                                <p class="card-text">A sensação de que o seu trabalho real não vale nada se ele não puder ser "empacotado" em uma métrica visual chamativa no vídeo diário.</p>
-                            </div>
+                    <div class="col-md-4">
+                        <div class="p-3 border rounded bg-white shadow-sm h-100">
+                            <h5 class="text-primary h6">Síndrome do Impostor</h5>
+                            <p class="text-muted small mb-0">A crença distorcida de que o esforço real não tem valor caso não seja acompanhado de uma métrica quantitativa ostensiva e aprovada pelo algoritmo.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-3 border rounded bg-white shadow-sm h-100">
+                            <h5 class="text-primary h6">Esgotamento (Burnout Digital)</h5>
+                            <p class="text-muted small mb-0">Fadiga crônica decorrente da invasão do espaço de descanso pela necessidade de estar sempre disponível e validando resultados.</p>
                         </div>
                     </div>
                 </div>
 
+                <!-- Bloco de Fonte Confiável -->
+                <div class="alert alert-light border mt-4">
+                    <p class="small text-muted mb-0">
+                        <strong>Referência / Fonte Confiável:</strong> Pesquisas em Psicologia Ocupacional e Saúde Mental — Estudos sobre fadiga digital, esgotamento emocional e os reflexos da vigilância algorítmica no trabalho moderno.
+                    </p>
+                </div>
             </div>
         </section>
     </main>
 
     <!-- Rodapé -->
-    <footer class="text-center py-4 bg-light mt-auto">
+    <footer class="text-center py-4 bg-light mt-auto border-top">
         <div class="container">
             <p class="text-muted small mb-0">Projeto Prático - Front-end com IA &copy; 2026</p>
         </div>
     </footer>
 
-    <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
