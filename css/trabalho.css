@@ -1,18 +1,22 @@
 /* Design System Próprio com Variáveis CSS (:root) */
 :root {
     --bg-color: #f8fafc;
-    --text-color: #334155;
+    --text-color: #000000;
     --primary-color: #0f172a;
     --secondary-color: #3b82f6;
     --card-bg: #ffffff;
     --fonte-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --bs-body-color: #000000;
+    --bs-secondary-color: #000000;
 }
 
 /* Modo Escuro (Dark Mode) aplicado via classe no body */
 body.dark-mode {
     --bg-color: #0f172a;
-    --text-color: #f8fafc;
+    --text-color: #ffffff;
     --card-bg: #1e293b;
+    --bs-body-color: #ffffff;
+    --bs-secondary-color: #ffffff;
 }
 
 body {
@@ -31,10 +35,22 @@ header {
 /* Ajuste dinâmico para os cards no modo escuro */
 body.dark-mode .card, 
 body.dark-mode .bg-white,
-body.dark-mode .bg-light {
+body.dark-mode .bg-light,
+body.dark-mode .alert-light {
     background-color: var(--card-bg) !important;
     color: var(--text-color) !important;
     border-color: #334155 !important;
+}
+
+body:not(.dark-mode) .text-muted,
+body:not(.dark-mode) .text-secondary,
+body:not(.dark-mode) .text-dark,
+body:not(.dark-mode) .text-primary,
+body.dark-mode .text-muted,
+body.dark-mode .text-secondary,
+body.dark-mode .text-dark,
+body.dark-mode .text-primary {
+    color: var(--text-color) !important;
 }
 
 /* Microinteração nos links do menu */

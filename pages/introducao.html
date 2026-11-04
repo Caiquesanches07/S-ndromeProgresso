@@ -20,22 +20,29 @@
     </header>
 
     <!-- Barra de Navegação -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary mb-4 shadow-sm">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="../index.html">Início</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="introducao.html">Introdução</a></li>
-                    <li class="nav-item"><a class="nav-link" href="causas.html">Causas</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sintomas.html">Sintomas</a></li>
-                </ul>
-            </div>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-secondary mb-4 shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="../index.html">Início</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="introducao.html">Introdução</a></li>
+                <li class="nav-item"><a class="nav-link" href="causas.html">Causas</a></li>
+                <li class="nav-item"><a class="nav-link" href="sintomas.html">Sintomas</a></li>
+                <li class="nav-item"><a class="nav-link" href="diagnostico.html">Conselho</a></li>
+                <li class="nav-item"><a class="nav-link" href="dados.html">Dados</a></li>
+                
+                <!-- Botão de Alternar Tema (Dark/Light Mode) -->
+                <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                    <button class="btn btn-outline-light btn-sm" onclick="alternarTema()" id="btnTema">🌓 Tema</button>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <!-- Conteúdo Principal -->
     <main class="container my-5">
@@ -73,6 +80,10 @@
         </div>
     </footer>
 
+  <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Seu JS Autoral do Dark Mode -->
+    <script src="../js/trabalho.js"></script>
 </body>
 </html>
