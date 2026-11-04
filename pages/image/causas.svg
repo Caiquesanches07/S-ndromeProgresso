@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img">
+  <rect width="800" height="420" rx="24" fill="#eff6ff"/>
+  <circle cx="124" cy="98" r="60" fill="#dbeafe"/>
+  <circle cx="681" cy="329" r="84" fill="#dbeafe"/>
+  <rect x="448" y="70" width="276" height="186" rx="16" fill="#1e293b"/>
+  <rect x="465" y="87" width="242" height="151" rx="8" fill="#f8fafc"/>
+  <text x="486" y="117" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#334155">ATIVIDADE</text>
+  <rect x="486" y="133" width="155" height="11" rx="5" fill="#dbeafe"/>
+  <rect x="486" y="133" width="119" height="11" rx="5" fill="#3b82f6"/>
+  <rect x="486" y="158" width="190" height="11" rx="5" fill="#e2e8f0"/>
+  <rect x="486" y="183" width="176" height="11" rx="5" fill="#e2e8f0"/>
+  <path d="M542 272h86l16 16H526z" fill="#64748b"/>
+  <circle cx="292" cy="151" r="43" fill="#f2c6a0"/>
+  <path d="M250 145c2-48 77-59 88-4-16-11-31-16-48-14-12 11-24 17-40 18z" fill="#334155"/>
+  <path d="M224 284c6-58 28-83 68-83s62 25 68 83" fill="#3b82f6"/>
+  <path d="M269 209l23 24 24-24" fill="#fff"/>
+  <rect x="236" y="281" width="114" height="68" rx="7" fill="#334155"/>
+  <rect x="245" y="289" width="96" height="49" rx="4" fill="#bfdbfe"/>
+  <path d="M225 354h136l-13 12H238z" fill="#64748b"/>
+  <path d="M387 105l36 36m0-36-36 36" stroke="#ef4444" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="396" cy="246" r="27" fill="#fff" stroke="#f59e0b" stroke-width="5"/>
+  <path d="M396 231v17l11 8" fill="none" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+  <path d="M151 273c0-24 19-43 43-43s43 19 43 43-19 43-43 43h-11l-18 17 3-23c-12-8-20-21-20-37z" fill="#fff" stroke="#60a5fa" stroke-width="4"/>
+  <circle cx="181" cy="273" r="4" fill="#2563eb"/>
+  <circle cx="194" cy="273" r="4" fill="#2563eb"/>
+  <circle cx="207" cy="273" r="4" fill="#2563eb"/>
+</svg>
